@@ -1,0 +1,10 @@
+{{ define "main" }}
+<p class="lede">{{ .Site.Params.description }}</p>
+{{ range (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
+<article class="post-item">
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
+  <p>{{ .Description }}</p>
+</article>
+{{ end }}
+{{ end }}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Four trackers, four totals">
+<rect width="1200" height="630" fill="#12263a"/>
+<g fill="#3d5a73"><rect x="160" y="380" width="150" height="150"/><rect x="380" y="320" width="150" height="210"/><rect x="600" y="270" width="150" height="260"/></g><rect x="820" y="200" width="150" height="330" fill="#f2b134"/><line x1="100" y1="530" x2="1100" y2="530" stroke="#e8eef2" stroke-width="3"/>
+<text x="60" y="95" font-family="system-ui,Arial,sans-serif" font-size="40" font-weight="700" fill="#e8eef2">Four trackers, four totals</text>
+</svg>

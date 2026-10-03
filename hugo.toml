@@ -1,0 +1,10 @@
+baseURL = "https://kineta.site"   # TODO: replace with your real domain
+languageCode = "en"
+title = "Entry-Level Tech Watch"   # TODO: replace with your site name
+enableRobotsTXT = true
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  description = "News and analysis on how AI is changing the job market for computer science students and new graduates."
